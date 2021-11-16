@@ -33,7 +33,7 @@ r,,DeliveryFlow,T.016 value,,,B514,052B,,,IGN:2,,,,,,UIN,,,
 w,,ReadCompressorSpeed,Read T.068,,,B514,055D,,m,HEX:3,,,
 r,,CompressorSpeed,T.068 value,,,B514,055D,,,IGN:2,,,,,,UIN,10,,# Heatpump statistics
 # Heatpump statistics
-*r,,,,,,"B51A","05FF32",,,IGN:3,,,,
+*r,,,,,,"B51A","05FF32",,,IGN:3,,,,,,,,,,,,,,,,,,,,,
 r,,EnergyHc,,,,,00,,,energy,,,,,,,,,,,,,,,
 r,,EnergyCool,,,,,01,,,energy,,,,,,,,,,,,,,,
 r,,Hours,,,,,40,,,energy,,,,,,,,,,,,,,,
