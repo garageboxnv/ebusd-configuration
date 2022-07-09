@@ -305,7 +305,3 @@ r;w,,z2CoolingTimer.Saturday,timer cooling saturday,,,,05,,,slot1-3,,,
 r;w,,z2CoolingTimer.Sunday,timer cooling sunday,,,,06,,,slot1-3,,,
 # includes,,,,,,,,,,,,,
 !include,errors.inc,,,,,,,,,,,,
-=======
-# includes,,,,,,,,,,,,,
-!include,errors.inc,,,,,,,,,,,,
->>>>>>> 7f23e00 (fix CSV format in english language for VRC700)
