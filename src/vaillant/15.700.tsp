@@ -16,7 +16,7 @@ namespace _700 {
   @base(MF, 0x24, 0x2, 0, 0, 0)
   model r_1 {
     @maxLength(4)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -517,7 +517,7 @@ namespace _700 {
   @base(MF, 0x24, 0x2, 0, 1, 0)
   model r_2 {
     @maxLength(4)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -601,7 +601,7 @@ namespace _700 {
   @base(MF, 0x24, 0x2, 0, 0x2, 0)
   model r_3 {
     @maxLength(4)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -731,7 +731,7 @@ namespace _700 {
   @base(MF, 0x24, 0x2, 0, 0x2, 1)
   model r_4 {
     @maxLength(4)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -861,7 +861,7 @@ namespace _700 {
   @base(MF, 0x24, 0x2, 0, 0x2, 0x2)
   model r_5 {
     @maxLength(4)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -1121,7 +1121,7 @@ namespace _700 {
   @base(MF, 0x24, 0x2, 0, 0x3, 0)
   model r_6 {
     @maxLength(4)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -1286,7 +1286,7 @@ namespace _700 {
   @base(MF, 0x24, 0x2, 0, 0x3, 1)
   model r_7 {
     @maxLength(4)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -1451,7 +1451,7 @@ namespace _700 {
   @base(MF, 0x24, 0x2, 0, 0x3, 0x2)
   model r_8 {
     @maxLength(4)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -1946,9 +1946,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0, 0, 1)
   model r_9 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2009,9 +2008,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0, 0, 0x2)
   model r_10 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2072,9 +2070,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0, 0, 0x3)
   model r_11 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2135,9 +2132,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 1, 0, 1)
   model r_12 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2198,9 +2194,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 1, 0, 0x2)
   model r_13 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2261,9 +2256,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0x3, 0, 0x2)
   model r_14 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2323,9 +2317,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0x3, 0, 1)
   model r_15 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2386,9 +2379,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0x3, 1, 0x2)
   model r_16 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2448,9 +2440,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0x3, 1, 1)
   model r_17 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2511,9 +2502,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0x3, 0x2, 0x2)
   model r_18 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
@@ -2573,9 +2563,8 @@ namespace _700 {
   /** default *r */
   @base(MF, 0x24, 0x3, 0x3, 0x2, 1)
   model r_19 {
-    /** whether timeslot is valid */
     @maxLength(1)
-    value: IGN;
+    ign: IGN;
   }
 
   /** default *w */
