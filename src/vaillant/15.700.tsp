@@ -1006,7 +1006,6 @@ namespace _700 {
     mctype: mctype;
     @maxLength(1) ign: IGN;
   }
-  // r;w,Hc4Unknown04,(constant 30) temperature heating circuit 4,0400,tempv,unknown value for Hc4
 
   /** ActualFlowTempDesired heating circuit 4 */
   @inherit(r_20)
@@ -1023,7 +1022,20 @@ namespace _700 {
     /** current flow temperature of Hc4 */
     value: tempv;
   }
-  // r;w,Hc4Unknown09,(constant 60) temperature,0900,tempv,unknown value for Hc4
+
+  /** Fixed temp 1 circuit 4*/
+  @inherit(r_20,w_20)
+  @ext(0x4, 0)
+  model Hc4FixedTemp1 {
+    value: tempv;
+  }
+
+  /** Fixed temp 2 circuit 4*/
+  @inherit(r_20,w_20)
+  @ext(0x9, 0)
+  model Hc4FixedTemp2 {
+    value: tempv;
+  }
 
   /** ExcessTemp heating circuit 4 */
   @inherit(r_20, w_20)
@@ -1137,7 +1149,13 @@ namespace _700 {
     mctype: mctype;
     @maxLength(1) ign: IGN;
   }
-  // r;w,Hc5Unknown04,(constant 30) temperature heating circuit 5,0400,tempv,unknown value for Hc5
+
+  /** Fixed temp 1 circuit 5*/
+  @inherit(r_27,w_27)
+  @ext(0x4, 0)
+  model Hc5FixedTemp1 {
+    value: tempv;
+  }
 
   /** ActualFlowTempDesired heating circuit 5 */
   @inherit(r_27)
@@ -1154,7 +1172,13 @@ namespace _700 {
     /** current flow temperature of Hc5 */
     value: tempv;
   }
-  // r;w,Hc5Unknown09,(constant 60) temperature,0900,tempv,unknown value for Hc5
+
+  /** Fixed temp 2 circuit 5*/
+  @inherit(r_27,w_27)
+  @ext(0x9, 0)
+  model Hc5FixedTemp2 {
+    value: tempv;
+  }
 
   /** ExcessTemp heating circuit 5 */
   @inherit(r_27, w_27)
